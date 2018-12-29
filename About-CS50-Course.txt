@@ -1,0 +1,19 @@
+About CS50's Introduction to Computer Science.
+
+This course hosted on edX platform consisted of 7 psets (Problem sets) and Final Project.
+
+Psets inspired by real-world domains of biology, cryptography, finance, forensics and gaming.
+
+Implementation of programs are done using C, PHP, HTML, CSS and JavaScript.
+
+Course Outcomes:
+1) Abstraction
+2) Algorithms
+3) Data Structures
+4) Encapsulation
+5) Resource Management
+6) Web Development
+
+Website: https://cs50.edx.org/
+
+Thank you.
