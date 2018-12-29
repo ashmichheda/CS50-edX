@@ -1,9 +1,54 @@
-questions.txt
+0.  pneumonoultramicroscopicsilicovolcanoconios is said to mean a lung disease caused by inhaling very fine ash and sand dust.
 
-Computer Science 50
-Problem Set 3
+1.  According to man, getrusage does the following:
+    getrusage() returns resource usage measures for who, which can be one of the following:
 
-0. The other dimensions that the framework works are 5x5, 6x6, 7x7, 8x8, 9x9
-1. Game's board is represented with a 2D array data structure
-2. greet() function is called to greet the player at the game's start
-3. The functions to be implemented are init(), draw(), move(), won().
+       RUSAGE_SELF
+              Return resource usage statistics for the calling process, which is the sum of resources used by all threads in the process.
+
+       RUSAGE_CHILDREN
+              Return resource usage statistics for all children of the calling process that have terminated and been waited for.  These statistics will include the resources used by grandchil‐
+              dren, and further removed descendants, if all of the intervening descendants waited on their terminated children.
+       RUSAGE_THREAD (since Linux 2.6.26)
+              Return resource usage statistics for the calling thread.
+
+2.  16 members are in a variable of type struct rusage
+    long   ru_isrss;         /* integral unshared stack size */
+               long   ru_minflt;        /* page reclaims (soft page faults) */
+               long   ru_majflt;        /* page faults (hard page faults) */
+               long   ru_nswap;         /* swaps */
+               long   ru_inblock;       /* block input operations */
+               long   ru_oublock;       /* block output operations */
+               long   ru_msgsnd;        /* IPC messages sent */
+               long   ru_msgrcv;        /* IPC messages received */
+               long   ru_nsignals;      /* signals received */
+               long   ru_nvcsw;         /* voluntary context switches */
+               long   ru_nivcsw;        /* involuntary context switches */
+           };
+
+
+3.  before and after in calculate() function are passed in by reference and not by values because, passing in by values will consume lot of time in execution as well as memory space. 
+Also getrusage() expects a pointer in argument, which is very fast comparatively than values.
+
+
+4.  This program reads words from the file, character by character, using the for loop, it starts by reading the first character from file, if the character is a letter or an apostrophe 
+    it is added to the character array word. If the character is a digit then its ignored. If the word length is too long than the constant value defined in LENGTH, then its ignored.
+    If a word still exists,then the current word is ended by adding '/0' character at the end, update the words counter, spelling is checked and printed.
+
+5.  fgetc is a safer and simpler way for accessing characters by character in a text file. Where as in fscanf, one has to allocate memory for a string for reading character by character.
+    and there are no limits of a length of a word in a text file. Also you can't write program logic for skipping alphanumeric words, like this implementation of speller has. 
+    Overall, this approach gives us much less flexibility.
+
+
+
+6.  Because those parameters aren't meant to be altered further in the functions.
+
+7.  The data structure i used is a hashtable, where for loop iterates through each word in the dictionary, places the word inside the node, allocates memory and puts it inside the hashtbale in the bucket to which it belongs.
+
+8.  This pset was more about designing the code for the dictionary. I had a hard time formulating my hashtable, thanks to cs50 study notes.
+
+
+9.   Did trial and errors and referred to various sources online for hashtables.
+
+
+10. May be in the check function, rather than checking for each word  inside a specific bucket may be a more efficient way to look out for that word.
