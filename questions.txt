@@ -1,0 +1,9 @@
+questions.txt
+
+Computer Science 50
+Problem Set 3
+
+0. The other dimensions that the framework works are 5x5, 6x6, 7x7, 8x8, 9x9
+1. Game's board is represented with a 2D array data structure
+2. greet() function is called to greet the player at the game's start
+3. The functions to be implemented are init(), draw(), move(), won().
