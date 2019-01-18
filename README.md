@@ -7,10 +7,10 @@ Programs implemented using C, PHP, HTML, JavaScript and CSS.
 
 ### Course Outcomes
 
-1) Abstraction
-2) Algorithms
-3) Data Structures
-4) Encapsulation
+* Abstraction
+* Algorithms
+* Data Structures
+* Encapsulation
 
 ### Feedback on this course:
 This course (CS50) has been quite popular due to Prof. David J. Malan’s lucid explanation and creative ways of teaching the concepts of Computer Science, thus making it easier for beginners to grasp the contents quite easily.
