@@ -11,6 +11,8 @@ Programs implemented using C, PHP, HTML, JavaScript and CSS.
 * Algorithms
 * Data Structures
 * Encapsulation
+5) Resource Management
+6) Web Development
 
 ### Personal feedback on this course:
 This course (CS50) has been quite popular due to Prof. David J. Malan’s lucid explanation and creative ways of teaching the concepts of Computer Science, thus making it easier for beginners to grasp the contents quite easily.
