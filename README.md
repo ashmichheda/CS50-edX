@@ -1,9 +1,8 @@
 # CS50-edX
-### Author: Ashmi Chheda
 
-### About CS50's Introduction to Computer Science
-This repo contains solutions of 7 problem sets (psets) of HavardX's CS50 course (Introduction to Computer Science) hosted on edX platform.
-Programs implemented using C, PHP, HTML, JavaScript and CSS.
+### About CS50:
+This repo contains my solutions of 7 problem sets (psets) of HavardX's CS50 course (Introduction to Computer Science) hosted on edX platform. <br/>
+Programs are implemented using C, PHP, HTML, JavaScript and CSS.
 
 ### Course Outcomes
 
